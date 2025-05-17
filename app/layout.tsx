@@ -58,7 +58,7 @@ export default function RootLayout({
                 <img src="/aware2.png" alt="GamCare logo" className="footer__logo" />
               </a>
               <a
-                href="https://gambleware.org"
+                href="https://www.gambleaware.org/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__logo-link"
