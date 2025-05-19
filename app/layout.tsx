@@ -41,7 +41,7 @@ export default function RootLayout({
               GamCare
             </a>{" "}
             eller{" "}
-            <a href="https://gambleware.org" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.gambleaware.org/" target="_blank" rel="noopener noreferrer">
               GambleAware
             </a>{" "}
             for støtte og råd.
@@ -59,25 +59,25 @@ export default function RootLayout({
                 className="footer__logo-link"
                 aria-label="Besøk Hjelpelinjen - Åpnes i nytt vindu"
               >
-                <img src="/hjelpelinjen-logo.png" alt="Hjelpelinjen logo" className="footer__logo" />
+                <img src="/aware.webp" alt="Hjelpelinjen logo" className="footer__logo" />
               </a>
               <a
-                href="https://gamcare.org.uk"
+                href="https://www.gamcare.org.uk/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__logo-link"
                 aria-label="Besøk GamCare - Åpnes i nytt vindu"
               >
-                <img src="/gamcare-logo.png" alt="GamCare logo" className="footer__logo" />
+                <img src="/aware2 (1).png" alt="GamCare logo" className="footer__logo" />
               </a>
               <a
-                href="https://gambleware.org"
+                href="https://www.gambleaware.org/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__logo-link"
                 aria-label="Besøk GambleAware - Åpnes i nytt vindu"
               >
-                <img src="/gambleware-logo.png" alt="GambleAware logo" className="footer__logo" />
+                <img src="/aware1 (1).webp" alt="GambleAware logo" className="footer__logo" />
               </a>
               <div className="footer__age-restriction">
                 <AgeRestrictionIcon size={50} />
