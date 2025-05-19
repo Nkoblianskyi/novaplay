@@ -6,16 +6,29 @@ export function Characters() {
   return (
     <section className="characters-section">
       <div
-          className="disclaimer disclaimer--top disclaimer--sticky"
-          role="alert"
-          aria-label="Advarsel om aldersgrense og at dette ikke er pengespill"
-        >
-          <p className="disclaimer__text">
-            <strong>ADVARSEL:</strong> AquaVibe er kun en sosial spillplattform for underholdningsformål. Ingen ekte
-            penger er involvert, ingen premier eller belønninger, og ingen virtuelle gjenstander har noen reell verdi.
-            Du må være 18 år eller eldre for å bruke denne plattformen.
-          </p>
-        </div>
+        className="disclaimer disclaimer--top disclaimer--sticky"
+        role="alert"
+        aria-label="Advarsel om aldersgrense og at dette ikke er pengespill"
+      >
+        <p className="disclaimer__text">
+          <strong>ADVARSEL:</strong> AquaVibe er kun en sosial spillplattform for underholdningsformål. Ingen ekte
+          penger er involvert, ingen premier eller belønninger, og ingen virtuelle gjenstander har noen reell verdi.
+          Du må være 18 år eller eldre for å bruke denne plattformen.Hvis det slutter å være gøy, ta et skritt tilbake. Du kan også besøke
+          hjelpesider som{" "}
+          <a href="https://hjelpelinjen.no" target="_blank" rel="noopener noreferrer">
+            Hjelpelinjen.no
+          </a>
+          ,{" "}
+          <a href="https://gamcare.org.uk" target="_blank" rel="noopener noreferrer">
+            GamCare
+          </a>{" "}
+          eller{" "}
+          <a href="https://gambleware.org" target="_blank" rel="noopener noreferrer">
+            GambleAware
+          </a>{" "}
+          for støtte og råd.
+        </p>
+      </div>
       <div className="characters-section__container">
         <h2 className="characters-section__title">UNDERVANNSVENNER OG SKATTER</h2>
         <p className="characters-section__description">

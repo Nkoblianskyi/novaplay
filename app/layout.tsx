@@ -31,7 +31,20 @@ export default function RootLayout({
           <p className="disclaimer__text">
             <strong>ADVARSEL:</strong> AquaVibe er kun en sosial spillplattform for underholdningsformål. Ingen ekte
             penger er involvert, ingen premier eller belønninger, og ingen virtuelle gjenstander har noen reell verdi.
-            Du må være 18 år eller eldre for å bruke denne plattformen.
+            Du må være 18 år eller eldre for å bruke denne plattformen. Hvis det slutter å være gøy, ta et skritt
+            tilbake. Du kan også besøke hjelpesider som{" "}
+            <a href="https://hjelpelinjen.no" target="_blank" rel="noopener noreferrer">
+              Hjelpelinjen.no
+            </a>
+            ,{" "}
+            <a href="https://gamcare.org.uk" target="_blank" rel="noopener noreferrer">
+              GamCare
+            </a>{" "}
+            eller{" "}
+            <a href="https://gambleware.org" target="_blank" rel="noopener noreferrer">
+              GambleAware
+            </a>{" "}
+            for støtte og råd.
           </p>
         </div>
         <Header />
@@ -46,7 +59,7 @@ export default function RootLayout({
                 className="footer__logo-link"
                 aria-label="Besøk Hjelpelinjen - Åpnes i nytt vindu"
               >
-                <img src="/aware.webp" alt="Hjelpelinjen logo" className="footer__logo" />
+                <img src="/hjelpelinjen-logo.png" alt="Hjelpelinjen logo" className="footer__logo" />
               </a>
               <a
                 href="https://gamcare.org.uk"
@@ -55,16 +68,16 @@ export default function RootLayout({
                 className="footer__logo-link"
                 aria-label="Besøk GamCare - Åpnes i nytt vindu"
               >
-                <img src="/aware2.png" alt="GamCare logo" className="footer__logo" />
+                <img src="/gamcare-logo.png" alt="GamCare logo" className="footer__logo" />
               </a>
               <a
-                href="https://www.gambleaware.org/"
+                href="https://gambleware.org"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__logo-link"
                 aria-label="Besøk GambleAware - Åpnes i nytt vindu"
               >
-                <img src="/aware1.webp" alt="GambleAware logo" className="footer__logo" />
+                <img src="/gambleware-logo.png" alt="GambleAware logo" className="footer__logo" />
               </a>
               <div className="footer__age-restriction">
                 <AgeRestrictionIcon size={50} />
@@ -106,8 +119,41 @@ export default function RootLayout({
                 Ingen ekte penger er involvert, ingen premier eller belønninger, og ingen virtuelle gjenstander har noen
                 reell verdi. Dette er IKKE pengespill. Du må være 18 år eller eldre for å bruke denne plattformen. Hvis
                 aktivitetene på vår plattform begynner å påvirke ditt daglige liv negativt, anbefaler vi at du tar en
-                pause og vurderer å søke hjelp.
+                pause og vurderer å søke hjelp. Hvis det slutter å være gøy, ta et skritt tilbake. Du kan også besøke
+                hjelpesider som{" "}
+                <a href="https://hjelpelinjen.no" target="_blank" rel="noopener noreferrer">
+                  Hjelpelinjen.no
+                </a>
+                ,{" "}
+                <a href="https://gamcare.org.uk" target="_blank" rel="noopener noreferrer">
+                  GamCare
+                </a>{" "}
+                eller{" "}
+                <a href="https://gambleware.org" target="_blank" rel="noopener noreferrer">
+                  GambleAware
+                </a>{" "}
+                for støtte og råd.
               </p>
+              <p className="disclaimer__text">
+                <strong>IMPORTANT INFORMATION:</strong> This is a social gaming platform intended solely for entertainment purposes.
+                No real money is involved, no prizes or rewards are offered, and no virtual items have any real-world value. This is
+                NOT gambling. You must be 18 years or older to use this platform. If your activity on our platform begins to
+                negatively affect your daily life, we recommend taking a break and considering seeking help. If it stops being fun,
+                take a step back. You can also visit support sites like{" "}
+                <a href="https://hjelpelinjen.no" target="_blank" rel="noopener noreferrer">
+                  Hjelpelinjen.no
+                </a>
+                ,{" "}
+                <a href="https://gamcare.org.uk" target="_blank" rel="noopener noreferrer">
+                  GamCare
+                </a>{" "}
+                or{" "}
+                <a href="https://gambleaware.org" target="_blank" rel="noopener noreferrer">
+                  GambleAware
+                </a>{" "}
+                for help and guidance.
+              </p>
+
             </div>
           </div>
         </footer>

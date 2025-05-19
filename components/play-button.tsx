@@ -21,9 +21,7 @@ export function PlayButton() {
   }
 
   return (
-    
     <div className="play-button" itemScope itemType="https://schema.org/InteractionCounter">
-      
       <button
         className="play-button__button"
         onClick={handlePlayClick}
@@ -50,7 +48,20 @@ export function PlayButton() {
               <p>
                 <strong>VIKTIG INFORMASJON:</strong> AquaVibe er kun en sosial plattform for underholdningsformål. Dette
                 er IKKE pengespill. Ingen ekte penger er involvert, ingen premier eller belønninger, og ingen virtuelle
-                gjenstander har noen reell verdi.
+                gjenstander har noen reell verdi. Hvis det slutter å være gøy, ta et skritt tilbake. Du kan også besøke
+                hjelpesider som{" "}
+                <a href="https://hjelpelinjen.no" target="_blank" rel="noopener noreferrer">
+                  Hjelpelinjen.no
+                </a>
+                ,{" "}
+                <a href="https://gamcare.org.uk" target="_blank" rel="noopener noreferrer">
+                  GamCare
+                </a>{" "}
+                eller{" "}
+                <a href="https://gambleware.org" target="_blank" rel="noopener noreferrer">
+                  GambleAware
+                </a>{" "}
+                for støtte og råd.
               </p>
             </div>
             <div className="age-verification__buttons">

@@ -184,7 +184,8 @@ export default function GamePage() {
         <p>
           <strong>ADVARSEL:</strong> Dette er kun et sosialt spill for underholdningsformål.
           <strong> Ingen ekte penger, ingen premier eller belønninger.</strong> Dette er IKKE pengespill.
-          <span> Du må være 18 år for å spille.</span> Ved problemer, besøk{" "}
+          <span> Du må være 18 år for å spille.</span> Hvis det slutter å være gøy, ta et skritt tilbake. Du kan også
+          besøke hjelpesider som{" "}
           <a
             href="https://hjelpelinjen.no"
             target="_blank"
@@ -193,7 +194,25 @@ export default function GamePage() {
           >
             Hjelpelinjen.no
           </a>
-          .
+          ,{" "}
+          <a
+            href="https://gamcare.org.uk"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Besøk GamCare - Åpnes i nytt vindu"
+          >
+            GamCare
+          </a>{" "}
+          eller{" "}
+          <a
+            href="https://gambleware.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Besøk GambleAware - Åpnes i nytt vindu"
+          >
+            GambleAware
+          </a>{" "}
+          for støtte og råd.
         </p>
       </div>
 
@@ -320,7 +339,20 @@ export default function GamePage() {
         <p>
           <strong>VIKTIG INFORMASJON:</strong> Dette er kun en sosial spillplattform for underholdningsformål. Ingen
           ekte penger er involvert, ingen premier eller belønninger, og ingen virtuelle gjenstander har noen reell
-          monetær verdi. Dette er IKKE pengespill.
+          monetær verdi. Dette er IKKE pengespill. Hvis det slutter å være gøy, ta et skritt tilbake. Du kan også besøke
+          hjelpesider som{" "}
+          <a href="https://hjelpelinjen.no" target="_blank" rel="noopener noreferrer">
+            Hjelpelinjen.no
+          </a>
+          ,{" "}
+          <a href="https://gamcare.org.uk" target="_blank" rel="noopener noreferrer">
+            GamCare
+          </a>{" "}
+          eller{" "}
+          <a href="https://gambleware.org" target="_blank" rel="noopener noreferrer">
+            GambleAware
+          </a>{" "}
+          for støtte og råd.
         </p>
       </div>
 
