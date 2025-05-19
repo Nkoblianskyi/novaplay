@@ -11,8 +11,8 @@ export function GamePreview() {
           <div className="game-preview-section__text">
             <h2 className="game-preview-section__title">FINNS UNDERVANNSEVENTYR</h2>
             <p className="game-preview-section__description">
-              Bli med Finn på et spennende eventyr under havet. Samle sjøgress, reker og skjell mens du navigerer
-              gjennom korallrev og møter andre havbeboere.
+              Bli med Finn på en fredelig reise under havoverflaten. Samle sjøgress, reker og skjell mens du utforsker
+              korallrev og oppdager det fargerike livet i havet.
             </p>
             <ul className="game-preview-section__features-list">
               <li>
@@ -21,7 +21,7 @@ export function GamePreview() {
               </li>
               <li>
                 <span className="game-preview-section__feature-icon">🐚</span>
-                <span>Samle sjeldne skatter</span>
+                <span>Oppdag skjulte skatter</span>
               </li>
               <li>
                 <span className="game-preview-section__feature-icon">🐟</span>
@@ -29,7 +29,7 @@ export function GamePreview() {
               </li>
               <li>
                 <span className="game-preview-section__feature-icon">🎮</span>
-                <span>Engasjerende spillmekanikk</span>
+                <span>Avslappende og engasjerende opplevelse</span>
               </li>
             </ul>
           </div>
@@ -44,16 +44,16 @@ export function GamePreview() {
           </div>
         </div>
       </div>
+
       <div
         className="disclaimer disclaimer--top disclaimer--sticky"
         role="alert"
-        aria-label="Advarsel om aldersgrense og at dette ikke er pengespill"
+        aria-label="Informasjon om ansvar og aldersgrense"
       >
         <p className="disclaimer__text">
-          <strong>ADVARSEL:</strong> AquaVibe er kun en sosial spillplattform for underholdningsformål. Ingen ekte
-          penger er involvert, ingen premier eller belønninger, og ingen virtuelle gjenstander har noen reell verdi.
-          Du må være 18 år eller eldre for å bruke denne plattformen. Hvis det slutter å være gøy, ta et skritt tilbake. Du kan også besøke
-          hjelpesider som{" "}
+          <strong>VIKTIG INFORMASJON:</strong> AquaVibe er en digital opplevelse laget kun for avslapning og underholdning.
+          Ingen ekte penger er involvert, og ingen elementer har økonomisk verdi. Plattformen er kun for brukere over 18 år.
+          Hvis det slutter å være morsomt, ta en pause. Du kan også besøke støttesider som{" "}
           <a href="https://hjelpelinjen.no" target="_blank" rel="noopener noreferrer">
             Hjelpelinjen.no
           </a>
@@ -62,10 +62,10 @@ export function GamePreview() {
             GamCare
           </a>{" "}
           eller{" "}
-          <a href="https://gambleware.org" target="_blank" rel="noopener noreferrer">
+          <a href="https://gambleaware.org" target="_blank" rel="noopener noreferrer">
             GambleAware
           </a>{" "}
-          for støtte og råd.
+          for støtte og veiledning.
         </p>
       </div>
     </section>
