@@ -23,7 +23,7 @@ export function Characters() {
             GamCare
           </a>{" "}
           eller{" "}
-          <a href="https://gambleware.org" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.gambleaware.org/" target="_blank" rel="noopener noreferrer">
             GambleAware
           </a>{" "}
           for støtte og råd.
