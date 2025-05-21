@@ -4,6 +4,7 @@ import { Poppins } from "next/font/google"
 import { Header } from "@/components/header"
 import { AgeRestrictionIcon } from "@/components/age-restriction-icon"
 import "@/app/globals.scss"
+import "@/app/spill/game-page.scss"
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700", "800"],
